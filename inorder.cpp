@@ -7,7 +7,12 @@ int main(){
     int x, y, z;
     cout << "Enter three integers: " << endl;
     cin >> x >> y >> z;
-    cout << x << ", " << y << ", " << z << endl;
+    
+    if (x < y && y < z)
+    cout << "In order" << endl;
+     else {
+        cout << "Not in order" << endl;
+     }
 return 0;
 }
 
